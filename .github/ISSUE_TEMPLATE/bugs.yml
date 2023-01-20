@@ -1,0 +1,88 @@
+name: "Bug Report"
+description: "Report a bug for the Yoast SEO plugin"
+title: "[Bug]: "
+labels: ["status/awaiting_triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## BEFORE POSTING YOUR ISSUE
+        - Please create GitHub issues only for Yoast bugs. GitHub issues ARE NOT FOR SUPPORT.
+        - Make sure you are using the most updated versions of Yoast, WordPress & your theme.
+        ## THE ISSUE
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: "Prerequisites"
+      options:
+        - label: "I've read and understood the [contribution guidelines](https://github.com/Yoast/wordpress-seo/blob/trunk/.github/CONTRIBUTING.md)"
+          required: true
+        - label: "I've searched for any related issues and avoided creating a duplicate issue."
+          required: true
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "Description"
+      description: "Please give us a description of what happened."
+  - type: textarea
+    id: what-happen
+    validations:
+      required: true
+    attributes:
+      label: "Expected"
+      description: "Please describe what you expected to happen and why."
+  - type: textarea
+    id: steps_to_reproduce
+    validations:
+      required: true
+    attributes:
+      label: "How can we reproduce this behavior?"
+      description: "List all the steps needed to reproduce the issue, so we can replicate it quickly. You can attach screenshot(s) or recording(s) directly by dragging & dropping."
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+  - type: dropdown
+    id: affected-editor
+    attributes:
+      label: "Affected Editors"
+      description: If relevant, which editor is affected (or editors)
+      multiple: true
+      options:
+        - Classic Editor
+        - Gutenberg
+        - Classic Editor plugin
+    validations:
+      required: false
+  - type: dropdown
+    id: browser_info
+    attributes:
+      label: "Browser"
+      description: If relevant, which editor is affected (or editors)
+      multiple: true
+      options:
+        - Chrome
+        - Mozilla
+        - Edge
+        - Brave
+        - Safari
+        - Other
+    validations:
+      required: false
+  - type: input
+    id: yoast_seo_version
+    attributes:
+      label: Yoast SEO Version
+      placeholder: "Type the version of Yoast SEO"
+    validations:
+      required: true
+  - type: input
+    id: wordpress_version
+    attributes:
+      label: WordPress Version
+      placeholder: "Type the version of WordPress"
+    validations:
+      required: true
