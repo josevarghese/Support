@@ -1,0 +1,33 @@
+name: "TextExpander"
+description: "Open an issue to create/modify/remove a TextExpander"
+title: "[TextExpander]: "
+labels: ["platform:textexpander"]
+assignees: amboutwe
+body:
+  - type: markdown
+    attributes:
+      value: |
+        - Please share as much details to help Angelia, the product owner of TextExpander
+        - Make sure that the assignee and labels are selected from the right sidebar
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: "Issue Type"
+      description: Select the issue type
+      multiple: false
+      options:
+        - Create
+        - Remove
+        - Update/improve/fix
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "Description"
+      description: "Please give us a description with more informations."
+      placeholder: |
+        You can also attach screenshots by dragging and dropping it
