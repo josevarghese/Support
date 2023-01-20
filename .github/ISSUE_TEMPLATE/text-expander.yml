@@ -2,7 +2,7 @@ name: "TextExpander"
 description: "Open an issue to create/modify/remove a TextExpander"
 title: "[TextExpander]: "
 labels: ["platform:textexpander"]
-assignees: amboutwe
+assignees: josevarghese
 body:
   - type: markdown
     attributes:
