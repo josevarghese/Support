@@ -1,0 +1,34 @@
+name: "Help Center"
+description: "Open an issue to create/modify/remove a help center article"
+title: "[Help Center]: "
+labels: ["action: update/improve/fix","platform: yoast.com (KB/HelpCenter)"]
+assignees: josevarghese
+body:
+  - type: markdown
+    attributes:
+      value: |
+        - Please share as much details to help Jeroen
+        - Make sure that the assignee and labels are selected from the right sidebar
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: "Issue Type"
+      description: Select the issue type
+      multiple: false
+      options:
+        - Create
+        - Remove
+        - Update/improve/fix
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: "Description"
+      description: "Please share more details on the article which you would like to create/modify/remove"
+      placeholder: |
+        You can also attach screenshots by dragging and dropping it
+
