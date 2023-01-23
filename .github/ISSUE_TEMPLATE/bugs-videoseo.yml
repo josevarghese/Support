@@ -40,6 +40,8 @@ body:
       label: "Expected results"
       placeholder: |
         1.
+      value: |
+        1. 
   - type: textarea
     id: steps_to_reproduce
     validations:
@@ -47,6 +49,8 @@ body:
     attributes:
       label: "Actual results"
       placeholder: |
+        1. 
+      value: |
         1. 
   - type: markdown
     attributes:
