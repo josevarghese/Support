@@ -17,25 +17,32 @@ body:
       value: |
         ### Please give us a description of what happened
         ### To Reproduce
+        #### Steps necessary to reproduce this, including the expected and actual results.
   - type: textarea
-    id: description
+    id: reproduction-steps
     validations:
       required: true
     attributes:
       label: "Step-by-step reproduction instructions"
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
   - type: textarea
-    id: what-happen
+    id: expected-results
     validations:
       required: true
     attributes:
       label: "Expected results"
+      placeholder: |
+        1.
   - type: textarea
     id: steps_to_reproduce
     validations:
       required: true
     attributes:
-      label: "How can we reproduce this behavior?"
-      description: "List all the steps needed to reproduce the issue, so we can replicate it quickly. You can attach screenshot(s) or recording(s) directly by dragging & dropping."
+      label: "Actual results"
       placeholder: |
         1. Go to '...'
         2. Click on '....'
