@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Blank Issues
-    url: https://github.com/josevarghese/Support/issues/new
+    url: https://github.com/Yoast/wpseo-video/issues/new
     about: Open a blank issue for issues not related to bug or design implementation
