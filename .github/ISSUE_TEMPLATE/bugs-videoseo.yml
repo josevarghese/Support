@@ -43,10 +43,12 @@ body:
     attributes:
       label: "Actual results"
       placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+        1. 
+  - type: markdown
+    attributes:
+      value: |
+        ### Technical info
+        ###### If you are using Gutenberg, Elementor or the Classic Editor plugin, please make sure you have updated to the latest version.
   - type: dropdown
     id: affected-editor
     attributes:
@@ -54,9 +56,11 @@ body:
       description: If relevant, which editor is affected (or editors)
       multiple: true
       options:
-        - Classic Editor
-        - Gutenberg
-        - Classic Editor plugin
+        - Block Editor
+        - Gutenberg Editor
+        - Elementor Editor
+        - Classic Editor 
+        - Others
     validations:
       required: false
   - type: dropdown
