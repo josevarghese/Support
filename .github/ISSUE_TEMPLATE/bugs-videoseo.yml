@@ -12,20 +12,23 @@ body:
           required: true
         - label: "Make sure you are using the most updated versions of Yoast, WordPress & your theme."
           required: false
+  - type: markdown
+    attributes:
+      value: |
+        ### Please give us a description of what happened
+        ### To Reproduce
   - type: textarea
     id: description
     validations:
       required: true
     attributes:
-      label: "Description"
-      description: "Please give us a description of what happened."
+      label: "Step-by-step reproduction instructions"
   - type: textarea
     id: what-happen
     validations:
       required: true
     attributes:
-      label: "Expected"
-      description: "Please describe what you expected to happen and why."
+      label: "Expected results"
   - type: textarea
     id: steps_to_reproduce
     validations:
