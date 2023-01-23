@@ -1,0 +1,59 @@
+name: "Design implementation"
+description: "Transfer a design to the development team."
+title: "[Design implementation]: "
+body:
+  - type: input
+    id: product_owner
+    attributes:
+      label: Product owner:
+      placeholder: "Mention by using @"
+    validations:
+      required: false
+  - type: input
+    id: ux_designer
+    attributes:
+      label: UX designer:
+      placeholder: "Mention by using @"
+    validations:
+      required: false
+  - type: textarea
+    id: going_to_build
+    validations:
+      required: false
+    attributes:
+      label: "What are we going to build?"
+      description: If there are multiple iterative stages of implementation, describe each iteration separately
+      placeholder: |
+        Describe the project scope as detailed as possible
+  - type: textarea
+    id: problem_it_solves
+    validations:
+      required: false
+    attributes:
+      label: "What problem does it solve?"
+      description: What is the aim of this change? Why are we doing this?
+      placeholder: |
+        You can copy the problem definition from the corresponding design issue 
+  - type: textarea
+    id: functional_prototype
+    validations:
+      required: true
+    attributes:
+      label: "Functional prototype"
+      placeholder: |
+        Paste link to functional prototype (in Sketch Cloud)
+  - type: textarea
+    id: design_files
+    validations:
+      required: true
+    attributes:
+      label: "Design files"
+      placeholder: |
+        Paste link to design files (in Sketch Cloud)
+  - type: textarea
+    id: addional_info_requirements
+    validations:
+      required: false
+    attributes:
+      label: "Additional info or requirements"
+      placeholder: Attach files by dragging & dropping, selecting or pasting them.
