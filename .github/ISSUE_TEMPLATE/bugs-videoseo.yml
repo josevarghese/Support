@@ -107,9 +107,9 @@ body:
         WordPress Theme: 
         Yoast SEO version: 
         Yoast SEO Video version: 
-        Gutenberg plugin version (If relevant): 
-        Elementor plugin version: 
-        Classic Editor plugin version: 
+        Gutenberg plugin version (if relevant): 
+        Elementor plugin version (if relevant): 
+        Classic Editor plugin version (if relevant): 
         Relevant plugins in case of a bug: 
       value: |
         Device you are using: 
@@ -119,7 +119,7 @@ body:
         WordPress Theme: 
         Yoast SEO version: 
         Yoast SEO Video version: 
-        Gutenberg plugin version (If relevant): 
-        Elementor plugin version: 
-        Classic Editor plugin version: 
+        Gutenberg plugin version (if relevant):  
+        Elementor plugin version (if relevant): 
+        Classic Editor plugin version (if relevant): 
         Relevant plugins in case of a bug: 
