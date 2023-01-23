@@ -15,9 +15,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Please give us a description of what happened
-        ### To Reproduce
-        #### Steps necessary to reproduce this, including the expected and actual results.
+        ### Please give us a description of what happened to reproduce the issue
+        ###### Steps necessary to reproduce this, including the expected and actual results.
   - type: textarea
     id: reproduction-steps
     validations:
