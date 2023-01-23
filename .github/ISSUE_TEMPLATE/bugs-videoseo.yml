@@ -47,7 +47,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Technical info
+        ## Technical info
         ###### If you are using Gutenberg, Elementor or the Classic Editor plugin, please make sure you have updated to the latest version.
   - type: dropdown
     id: affected-editor
@@ -61,6 +61,13 @@ body:
         - Elementor Editor
         - Classic Editor 
         - Others
+    validations:
+      required: true
+  - type: input
+    id: other_browser
+    attributes:
+      label: If your using other editor (mention the editor and version)
+      placeholder: "Type the name of the editor and version"
     validations:
       required: false
   - type: dropdown
