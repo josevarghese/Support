@@ -81,8 +81,8 @@ body:
   - type: dropdown
     id: browser_info
     attributes:
-      label: "Browser"
-      description: If relevant, which editor is affected (or editors)
+      label: "Browser (s)"
+      description: Select which browser is affected (or browsers)
       multiple: true
       options:
         - Chrome
@@ -107,3 +107,33 @@ body:
       placeholder: "Type the version of WordPress"
     validations:
       required: true
+  - type: textarea
+    id: used-versions
+    validations:
+      required: true
+    attributes:
+      label: "Actual results"
+      placeholder: |
+        Device you are using:
+        Operating system:
+        PHP version:
+        WordPress version: 
+        WordPress Theme:
+        Yoast SEO version: 
+        Yoast SEO Video version:
+        Gutenberg plugin version (If relevant): 
+        Elementor plugin version: 
+        Classic Editor plugin version: 
+        Relevant plugins in case of a bug: 
+      value: |
+        Device you are using:
+        Operating system:
+        PHP version:
+        WordPress version: 
+        WordPress Theme:
+        Yoast SEO version: 
+        Yoast SEO Video version:
+        Gutenberg plugin version (If relevant): 
+        Elementor plugin version: 
+        Classic Editor plugin version: 
+        Relevant plugins in case of a bug: 
