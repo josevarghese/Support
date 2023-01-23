@@ -6,14 +6,14 @@ body:
     id: product_owner
     attributes:
       label: Product owner:
-      placeholder: "Mention by using @"
+      placeholder: "Mention by using"
     validations:
       required: false
   - type: input
     id: ux_designer
     attributes:
       label: UX designer:
-      placeholder: "Mention by using @"
+      placeholder: "Mention by using"
     validations:
       required: false
   - type: textarea
