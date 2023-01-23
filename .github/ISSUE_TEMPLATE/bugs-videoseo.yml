@@ -93,46 +93,32 @@ body:
         - Other
     validations:
       required: false
-  - type: input
-    id: yoast_seo_version
-    attributes:
-      label: Yoast SEO Version
-      placeholder: "Type the version of Yoast SEO"
-    validations:
-      required: true
-  - type: input
-    id: wordpress_version
-    attributes:
-      label: WordPress Version
-      placeholder: "Type the version of WordPress"
-    validations:
-      required: true
   - type: textarea
     id: used-versions
     validations:
       required: true
     attributes:
-      label: "Actual results"
+      label: "Used Versions"
       placeholder: |
-        Device you are using:
-        Operating system:
-        PHP version:
+        Device you are using: 
+        Operating system: 
+        PHP version: 
         WordPress version: 
-        WordPress Theme:
+        WordPress Theme: 
         Yoast SEO version: 
-        Yoast SEO Video version:
+        Yoast SEO Video version: 
         Gutenberg plugin version (If relevant): 
         Elementor plugin version: 
         Classic Editor plugin version: 
         Relevant plugins in case of a bug: 
       value: |
-        Device you are using:
-        Operating system:
-        PHP version:
+        Device you are using: 
+        Operating system: 
+        PHP version: 
         WordPress version: 
-        WordPress Theme:
+        WordPress Theme: 
         Yoast SEO version: 
-        Yoast SEO Video version:
+        Yoast SEO Video version: 
         Gutenberg plugin version (If relevant): 
         Elementor plugin version: 
         Classic Editor plugin version: 
