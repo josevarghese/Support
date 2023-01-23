@@ -52,6 +52,14 @@ body:
         1. 
       value: |
         1. 
+  - type: textarea
+    id: screenshots_recording_code_snippet
+    validations:
+      required: true
+    attributes:
+      label: "Screenshots, screen recording, code snippet"
+      description: If possible, please provide a screenshot, a screen recording or a code snippet which demonstrates the bug.
+      placeholder: Attach files by dragging & dropping, selecting or pasting them.
   - type: markdown
     attributes:
       value: |
