@@ -1,5 +1,5 @@
 name: "Bug Report - Video SEO"
-description: "Report a bug for the Yoast SEO plugin"
+description: "Create a report to help us improve the Yoast Video SEO plugin"
 title: "[Bug]: "
 labels: ["status/awaiting_triage"]
 body:
@@ -16,13 +16,13 @@ body:
     attributes:
       value: |
         ### Please give us a description of what happened to reproduce the issue
-        ###### Steps necessary to reproduce this, including the expected and actual results.
   - type: textarea
     id: reproduction-steps
     validations:
       required: true
     attributes:
       label: "Step-by-step reproduction instructions"
+      description: Steps necessary to reproduce this, including the expected and actual results.
       placeholder: |
         1. Go to '...'
         2. Click on '....'
