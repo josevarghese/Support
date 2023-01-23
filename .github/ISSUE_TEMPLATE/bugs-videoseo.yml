@@ -1,7 +1,7 @@
 name: "Bug Report - Video SEO"
 description: "Create a report to help us improve the Yoast Video SEO plugin"
 title: "[Bug]: "
-labels: ["status/awaiting_triage"]
+labels: ["bug"]
 body:
   - type: checkboxes
     id: prerequisites
